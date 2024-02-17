@@ -15,4 +15,7 @@ public class UsuarioORM {
   private String cedula;
   @Column
   private String nombre;
+
+  @Column
+  private String direccion;
 }
